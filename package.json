@@ -1,0 +1,16 @@
+{
+  "name": "restricted-html-template-service",
+  "version": "1.0.0",
+  "description": "Context-aware compiler for trusted, restricted HTML templates and untrusted string data.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "parse5": "8.0.1"
+  }
+}
